@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Native C# MPP reader and MSPDI serialization library.</Description>
+    <PackageLicenseExpression>LGPL-2.1-or-later</PackageLicenseExpression>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mpp/FieldMaps.json" />
+    <InternalsVisibleTo Include="MppToXml.Tests" />
+  </ItemGroup>
+</Project>
